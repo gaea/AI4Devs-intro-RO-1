@@ -1,11 +1,24 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Reverse String</title>    
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Texto Inverso</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-<script src="script.js"></script>
+  <h2>Invertir Texto</h2>
+
+  <label for="inputText">Texto de entrada:</label>
+  <textarea id="inputText" rows="4" placeholder="Escribe aquí..."></textarea>
+
+  <button onclick="invertirTexto()">Invertir</button>
+
+  <label for="resultado">Texto invertido:</label>
+  <input type="text" id="resultado" readonly />
+
+  <button onclick="copiarTexto()">Copiar</button>
+
+  <script src="script.js"></script>
 </body>
 </html>
