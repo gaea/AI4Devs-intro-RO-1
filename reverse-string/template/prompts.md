@@ -14,4 +14,15 @@ Genera el codigo html, javascript, y css que permita completar la pagina como es
 
 Del codigo anterior separa el contenido javscript, css y html.
 
+----
+
+remover el botón de ejecutar la acción de mostrar el texto de forma inversa, ahora la acción se va a ejecutar automáticamente cuando hayan mas de tres letras
+
+----
+
+la funcionalidad debe conservar los saltos de linea
+
+
+
+
 

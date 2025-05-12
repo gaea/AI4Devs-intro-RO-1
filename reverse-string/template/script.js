@@ -1,8 +1,12 @@
-function invertirTexto() {
+document.getElementById('inputText').addEventListener('input', () => {
   const texto = document.getElementById('inputText').value;
-  const invertido = texto.split('').reverse().join('');
-  document.getElementById('resultado').value = invertido;
-}
+  if (texto.length > 3) {
+    const invertido = texto.split('').reverse().join('');
+    document.getElementById('resultado').value = invertido;
+  } else {
+    document.getElementById('resultado').value = '';
+  }
+});
 
 function copiarTexto() {
   const resultado = document.getElementById('resultado');
